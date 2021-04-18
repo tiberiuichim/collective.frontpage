@@ -9,7 +9,7 @@
 <head>
   <metal:block fill-slot="style_slot">
     <?python from collective.frontpage.css import css_date;  ?>
-    <link rel="stylesheet" type="text/css" href="++resource++collective.frontpage/frontpage-compiled-${python:css_date}.css">
+    <link rel="stylesheet" type="text/css" href="++resource++collective.frontpage/frontpage-compiled-2019-10-21.css">
   </metal:block>
   <metal:block fill-slot="script_slot">
     <script src="++resource++collective.frontpage/frontpage.js"></script>
