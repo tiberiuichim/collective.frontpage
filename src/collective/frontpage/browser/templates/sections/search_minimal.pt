@@ -18,7 +18,7 @@
   <metal:main fill-slot="main">
 
     <div class="frontpage-section" metal:define-macro="search_bar">
-      <div class="section-content" tal:attributes="style view/get_style">
+      <div class="section-content section-search-minimal" tal:attributes="style view/get_style">
 
         <div class="">
           <form action="${view/portal/absolute_url}/@@search" enctype="multipart/form-data" method="POST">

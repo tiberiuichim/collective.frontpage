@@ -17,7 +17,7 @@
 <body>
   <metal:main fill-slot="main">
 
-    <div class="frontpage-section" metal:define-macro="static_default">
+    <div class="frontpage-section section-static" metal:define-macro="static_default">
       <div class="section-content" tal:attributes="style view/get_style">
 
         <div class="section-text">

@@ -17,7 +17,7 @@
 <body>
   <metal:main fill-slot="main">
 
-    <div class="frontpage-section" metal:define-macro="tile_cascade">
+    <div class="frontpage-section section-cards-cascade" metal:define-macro="tile_cascade">
       <div class="section-content" tal:attributes="style view/get_style">
 
         <div class="section-text">
